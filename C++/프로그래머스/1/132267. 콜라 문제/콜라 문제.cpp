@@ -7,12 +7,9 @@ int solution(int a, int b, int n) {
     int answer = 0;
     int remain = 0;
     
-    while(1)
+    while(n >= a)
     {      
-        if(n / a == 0) break;
-        
         int changed = (n/a) * b;
-        
         answer += changed;
         
         if (n % a != 0) 
