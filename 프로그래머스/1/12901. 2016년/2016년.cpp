@@ -1,6 +1,5 @@
 #include <string>
 #include <vector>
-#include <iostream>
 
 using namespace std;
 
@@ -26,7 +25,6 @@ string solution(int a, int b)
         }
     }
     totalDay += b;
-    cout << totalDay;
     
     switch(totalDay % 7)
     {
